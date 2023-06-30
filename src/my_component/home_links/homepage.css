@@ -1,0 +1,265 @@
+.nav-link {
+  color: aliceblue;
+}
+
+.nav {
+  justify-content: center;
+  width: 100vh;
+}
+
+.form-control {
+  background-color: rgb(240, 237, 237);
+}
+
+.nav-link:hover {
+  color: rgb(202, 203, 204);
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: rgb(202, 203, 204);
+  cursor: pointer;
+}
+
+.homepage {
+  padding-top: 260px;
+  padding-left: 150px;
+}
+
+.text-small {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hello {
+  background-image: url('../../images/frame1.png');
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  color: white;
+}
+
+.image-size {
+  width: 520px;
+  height: fit-content;
+}
+
+.vertical-align {
+  padding-top: 25px;
+}
+
+.footer {
+  bottom: 0;
+  height: 230px;
+  background-image: url('../../images/frame2.png');
+  background-size: cover;
+}
+
+.mr-btm {
+  margin-bottom: -12px;
+  width: 100%;
+}
+
+.alert {
+  background-image: url('../../images/frame2.png');
+  background-size: cover;
+  height: fit-content;
+}
+
+.disclaimer {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #6089a5 0%, #656799 100%);
+}
+
+.frame {
+  display: flex;
+  width: 100%;
+  height: 427px;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.login {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-us h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.about-us ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-us li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+/* Optional: Add additional styling to enhance the visual appearance */
+
+.about-us {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  color: #333;
+}
+
+.about-us h3 {
+  color: #555;
+}
+
+.about-us p {
+  color: #777;
+}
+
+.about-us ul {
+  color: #777;
+}
+
+/* Chat container */
+.chat-container {
+  background-image: url('../../images/frame1.png');
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat history */
+.chat-history {
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Individual chat message */
+.message {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* User message */
+.user .message-bubble {
+  background-color: #dcf8c6;
+  color: #000;
+  align-self: flex-end;
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* Bot message */
+.bot .message-bubble {
+  background-color: #fcfcfc;
+  color: #000;
+  align-self: flex-start;
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: auto;
+}
+
+.chat-input-box {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.chat-input-box input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.send-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.scrollable-box {
+  width: 100%;
+  height: 75vh;
+  overflow-y: scroll;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.scrollable-box::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+/* Optional: Show scrollbar on hover */
+.scrollable-box:hover::-webkit-scrollbar {
+  width: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.typewriter-text {
+  overflow: hidden;
+  border-right: 0.15em solid #000;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typewriter 2s steps(40) infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
